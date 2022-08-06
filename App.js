@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <SafeAreaView>
-      <FlatList
+      {/* <FlatList
         data={data}
         keyExtractor={(_, index) => index}
         renderItem={({item}) => {
@@ -47,9 +47,9 @@ const App = () => {
         }}
         onEndReached={setHandle}
         onEndReachedThreshold={0}
-      />
+      /> */}
 
-      {/* <Carousel
+      <Carousel
         ref={carouselRef}
         data={data}
         layout={'stack'}
@@ -78,7 +78,7 @@ const App = () => {
         contentContainerCustomStyle={{
           paddingTop: 14,
         }}
-      /> */}
+      />
     </SafeAreaView>
   );
 };
