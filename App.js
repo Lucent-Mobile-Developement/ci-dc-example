@@ -31,6 +31,7 @@ const App = () => {
 
   return (
     <SafeAreaView>
+      <Text> Your API Call are shown below</Text>
       <FlatList
         data={data}
         keyExtractor={(_, index) => index}
