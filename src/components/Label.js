@@ -2,5 +2,7 @@ import React from 'react';
 import {Text} from 'react-native';
 
 export const Label = () => {
-  return <Text> Your API Call are shown below</Text>;
+  return   <View>
+    <Text>Solving issue 3</Text>
+    <Text> Your API Call are shown below</Text></View>
 };
