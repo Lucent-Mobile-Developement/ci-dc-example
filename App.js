@@ -31,6 +31,7 @@ const App = () => {
 
   return (
     <SafeAreaView>
+      <Label />
       <FlatList
         data={data}
         keyExtractor={(_, index) => index}
