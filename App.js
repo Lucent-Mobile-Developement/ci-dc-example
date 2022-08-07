@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import {Card, Paragraph} from 'react-native-paper';
 import Carousel from 'react-native-snap-carousel';
-
+import {Label} from './src/components/Label';
 const App = () => {
   const carouselRef = useRef();
   const [data, setData] = useState([]);
